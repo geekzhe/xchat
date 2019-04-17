@@ -20,5 +20,11 @@ $ python3 xchat_server.py
 > 以下 URL 中需要将 ```LOCAL_USER_NAME``` 替换为本地(登录)用户的用户名
 
 ```
-http://127.0.0.1:7000/chat/<LOCAL_USER_NAME>
+http://127.0.0.1:7000/xchat?user=<LOCAL_USER_NAME>
+```
+
+示例
+
+```
+http://127.0.0.1:7000/xchat?user=tom
 ```

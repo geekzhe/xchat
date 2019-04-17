@@ -1,12 +1,17 @@
 import json
 
-from flask import Flask, request
+from flask import Flask, render_template, request
 from geventwebsocket.handler import WebSocketHandler
 from gevent.pywsgi import WSGIServer
 
 app = Flask(__name__)
 
 ONLINE_USERS = []
+
+
+@app.route('/xchat')
+def xchat_views():
+    return render_template('xchat.html')
 
 
 @app.route('/chat/<src_user>')
