@@ -4,6 +4,7 @@
 
 ```
 $ git clone https://github.com/geekzhe/xchat.git
+$ cd xchat
 $ pip3 install -r requirements.txt
 ```
 
