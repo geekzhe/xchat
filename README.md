@@ -5,7 +5,7 @@
 ```
 $ git clone https://github.com/geekzhe/xchat.git
 $ cd xchat
-$ pip3 install -r requirements.txt
+$ sudo pip3 install -r requirements.txt
 ```
 
 * 启动服务器端
