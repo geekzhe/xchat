@@ -1,0 +1,65 @@
+#mainContainer {
+    width: 900px;
+    height: 600px;
+    background-color: green;
+    margin: 50px auto;
+    position: relative;
+}
+
+#msgContainer {
+    width: 810px;
+    height: 460px;
+    background-color: orange;
+    position: absolute;
+    left: 25px;
+    top: 25px;
+    border-radius: 10px;
+    padding: 20px 20px;
+    overflow: auto;
+}
+
+#msgContainer .left{
+    background-color: white;
+    margin: 5px auto;
+    border-radius: 5px;
+    padding: 5px;
+    word-wrap: break-word;
+    word-break: break-all;
+    display: inline-block;
+    float: left;
+    clear: both;
+}
+
+#msgContainer .left .fromUser{
+    color: #56803c;
+}
+
+#msgContainer .right{
+    background-color: #56803c;
+    margin: 5px auto;
+    border-radius: 5px;
+    padding: 5px;
+    word-wrap: break-word;
+    word-break: break-all;
+    display: inline-block;
+    float: right;
+    clear: both;
+}
+
+#inputContainer {
+    width: 850px;
+    height: 30px;
+    background-color: orange;
+    position: absolute;
+    left: 25px;
+    bottom: 25px;
+}
+
+#inputMsg {
+    width: 700px;
+    margin: 0 20px;
+}
+
+#sendBtn {
+    width: 80px;
+}
