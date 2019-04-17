@@ -1,4 +1,4 @@
-# 基于 websocket 实现的聊天室 demo
+# 基于 flask & websocket 实现的聊天室 demo
 
 * 安装方法
 
